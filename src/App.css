@@ -6,10 +6,10 @@
   max-width: 1500px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 h1 {
-  color: red;
 }
 
 a:hover {
@@ -20,10 +20,27 @@ a:hover {
   font-weight: bold;
 }
 
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.nav Link {
+  flex: auto;
+}
+
+/* On-page nav */
 .nav-links {
-  color: red;
   list-style-type: none;
   padding-left: 0;
+  max-width: 75%;
+}
+
+.nav-links {
+  flex: auto;
+  flex-wrap: wrap;
 }
 
 .nav-links li {
@@ -40,6 +57,7 @@ a:hover {
 
 .flex {
   display: flex;
+  gap: 1rem;
 }
 
 .project-card {
