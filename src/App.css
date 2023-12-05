@@ -82,3 +82,10 @@ a:hover {
   color: white;
   list-style-type: none;
 }
+
+/* Other */
+.development-note {
+  padding: 1rem 2rem;
+  background-color: lightgray;
+  max-width: 600px;
+}

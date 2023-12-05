@@ -20,9 +20,13 @@ const Project = () => {
           ) : (
             ""
           )}
-          <a href={project.gitHub}>
-            <p>Explore the code</p>
-          </a>
+          {project.site ? (
+            <a href={project.gitHub}>
+              <p>Explore the code</p>
+            </a>
+          ) : (
+            ""
+          )}
         </div>
       ))}
     </div>
