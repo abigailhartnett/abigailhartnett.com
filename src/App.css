@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.nav-links {
+  color: red;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-links li {
+  flex: auto;
+}
+
+/* Cards */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.project-card {
+  background-color: ;
+}
+
+.project-card img {
+  max-width: 100%;
+}
+
+.tags {
+  font-size: 0.75rem;
+  display: flex;
+  padding-left: 0;
+}
+
+.tags li {
+  margin-right: 0.75rem;
+  background-color: blue;
+  padding: 0.25rem 1rem;
+  border-radius: 35%;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  list-style-type: none;
 }
