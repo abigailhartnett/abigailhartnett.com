@@ -11,10 +11,6 @@ const projectTypes = [
     type: "Copywriting",
     slug: "copywriting",
   },
-  {
-    type: "Orchestration",
-    slug: "orchestration",
-  },
 ];
 
 export default projectTypes;
