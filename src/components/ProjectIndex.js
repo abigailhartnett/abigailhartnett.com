@@ -3,7 +3,7 @@ import Project from "./Project";
 
 const ProjectIndex = () => {
   return (
-    <div>
+    <div className="grid">
       <Project />
     </div>
   );

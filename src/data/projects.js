@@ -5,7 +5,8 @@ const projects = [
     description: `Practice website for a fictional design agency. Original design and build.`,
     image: "/images/placeholder-square.jpg",
     tags: ["html", "css"],
-    gitHub: "",
+    slug: "development",
+    gitHub: "https://github.com/abigailhartnett/ja-branding",
     site: "",
   },
   {
@@ -14,7 +15,8 @@ const projects = [
     description: `Practice website for a fictional design tea shop. Built from spec.`,
     image: "/images/placeholder-square.jpg",
     tags: ["html", "css"],
-    gitHub: "",
+    slug: "development",
+    gitHub: "https://github.com/abigailhartnett/tea-cozy",
     site: "",
   },
   {
@@ -23,7 +25,8 @@ const projects = [
     description: `Practice website for a fictional photographer. Built from spec.`,
     image: "/images/placeholder-square.jpg",
     tags: ["html", "css"],
-    gitHub: "",
+    slug: "orchestration",
+    gitHub: "https://github.com/abigailhartnett/fotomatic/tree/main",
     site: "",
   },
   {
@@ -32,7 +35,8 @@ const projects = [
     description: `Takes in an array of credit card numbers and determines which are valid.`,
     image: "/images/placeholder-square.jpg",
     tags: ["javascript"],
-    gitHub: "",
+    slug: "copywriting",
+    gitHub: "https://github.com/abigailhartnett/credit-card-checker",
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ const projects = [
     description: `React app enabling you to create a playlist on Spotify. [Not complete.]`,
     image: "/images/placeholder-square.jpg",
     tags: ["react"],
+    slug: "development",
     gitHub: "https://github.com/abigailhartnett/jammming",
     site: "",
   },
