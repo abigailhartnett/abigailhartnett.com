@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const TopNav = () => {
   return (
     <div className="nav">
-      <Link to="/about" alt="about page">
+      <Link to="/resume" alt="about page">
         Resume
       </Link>
-      <Link to="/resume" alt="resume">
+      <Link to="/about" alt="resume">
         About
       </Link>
     </div>
