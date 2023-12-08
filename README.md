@@ -18,6 +18,6 @@ Step 5: finalize copy
 
 Step 6: finalize site UI
 
-From there, I'll begin to iterate. Feel free to poke around the repository and watch me build this site into something amazing! https://abigailhartnett.netlify.app/
+From there, I'll begin to iterate. Feel free to poke around the repository and watch me build this site into something amazing! https://abigailhartnett.com/
 
 👋🏻 Abigail
