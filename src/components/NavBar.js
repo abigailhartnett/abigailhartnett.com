@@ -7,11 +7,24 @@ const NavBar = () => {
     <div>
       <ul className="nav-links flex">
         <li>
-          <NavLink to={"/"}>All projects</NavLink>
+          <NavLink
+            to={"/"}
+            className={({ isActive }) =>
+              `filter-button ${isActive ? "filter-button-active" : ""}`
+            }
+          >
+            All projects
+          </NavLink>
         </li>
         {projectTypes.map((projectType) => (
           <li key={projectType.type}>
-            <NavLink to={`/${projectType.slug}`} key={projectType.type}>
+            <NavLink
+              to={`/${projectType.slug}`}
+              key={projectType.type}
+              className={({ isActive }) =>
+                `filter-button ${isActive ? "filter-button-active" : ""}`
+              }
+            >
               {projectType.type}
             </NavLink>
           </li>

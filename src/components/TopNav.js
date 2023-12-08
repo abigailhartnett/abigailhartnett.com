@@ -4,7 +4,7 @@ import React from "react";
 const TopNav = () => {
   return (
     <div className="nav">
-      <a href="../resources/resume.pdf" alt="resume">
+      <a href="../resources/resume.pdf" alt="resume" className="button">
         Resume
       </a>
       {/* <Link to="/about" alt="about page">

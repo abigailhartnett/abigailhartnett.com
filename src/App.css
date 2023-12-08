@@ -10,6 +10,7 @@
 }
 
 h1 {
+  margin-bottom: 0.5rem;
 }
 
 a:hover {
@@ -35,7 +36,10 @@ a:hover {
 .nav-links {
   list-style-type: none;
   padding-left: 0;
-  max-width: 75%;
+  max-width: 50%;
+  margin-bottom: 2.5rem;
+  padding-top: 1rem;
+  border-top: #e8e8e8 1px solid;
 }
 
 .nav-links {
@@ -45,6 +49,19 @@ a:hover {
 
 .nav-links li {
   flex: auto;
+}
+
+.filter-button {
+  text-decoration: none;
+  color: black;
+}
+
+.filter-button-active {
+  font-weight: bold;
+}
+
+.filter-button:hover {
+  font-weight: bold;
 }
 
 /* Cards */
@@ -61,7 +78,9 @@ a:hover {
 }
 
 .project-card {
-  background-color: ;
+  border: #e8e8e8 solid 1px;
+  box-shadow: 0px 0px 10px #e8e8e8;
+  padding: 1rem;
 }
 
 .project-card img {
@@ -87,4 +106,26 @@ a:hover {
   padding: 1rem 2rem;
   background-color: lightgray;
   max-width: 600px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+  background-color: #e8e8e8;
+  border-radius: 0.25rem;
+  color: black;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #cfcfcf;
+  font-weight: bold;
+}
+
+.text-link {
+  color: black;
+}
+
+.text-link:hover {
+  font-weight: bold;
 }

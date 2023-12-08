@@ -20,21 +20,21 @@ const Project = () => {
                 ))}
               </ul>
               {project.site ? (
-                <a href={project.site}>
+                <a href={project.site} className="text-link">
                   <p>Go to site</p>
                 </a>
               ) : (
                 ""
               )}
               {project.gitHub ? (
-                <a href={project.gitHub}>
+                <a href={project.gitHub} className="text-link">
                   <p>Explore the code</p>
                 </a>
               ) : (
                 ""
               )}
               {project.figma ? (
-                <a href={project.figma}>
+                <a href={project.figma} className="text-link">
                   <p>See the Figma</p>
                 </a>
               ) : (
@@ -53,21 +53,21 @@ const Project = () => {
                 ))}
               </ul>
               {project.site ? (
-                <a href={project.site}>
+                <a href={project.site} className="text-link">
                   <p>Go to site</p>
                 </a>
               ) : (
                 ""
               )}
               {project.gitHub ? (
-                <a href={project.gitHub}>
+                <a href={project.gitHub} className="text-link">
                   <p>Explore the code</p>
                 </a>
               ) : (
                 ""
               )}
               {project.figma ? (
-                <a href={project.figma}>
+                <a href={project.figma} className="text-link">
                   <p>See the Figma</p>
                 </a>
               ) : (
