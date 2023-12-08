@@ -1,6 +1,5 @@
 import "./App.css";
 import HomePage from "./pages/index";
-import AboutPage from "./pages/about";
 import {
   RouterProvider,
   createBrowserRouter,
