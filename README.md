@@ -10,12 +10,14 @@ My main goal with this build is to move quickly and iteratively. I'm beginning b
 
 ✅ Step 3: set up that basic layout and component structure in React
 
-🚧 Step 3: connect links to resources
+✅ Step 4: connect links to resources
+
+🚧 Step 5: finalize site functionality
 
 Step 5: finalize copy
 
 Step 6: finalize on-site design (to match my layouts)
 
-From there, I'll begin to iterate. Feel free to poke around the repository and watch me build this site into something amazing!
+From there, I'll begin to iterate. Feel free to poke around the repository and watch me build this site into something amazing! https://abigailhartnett.netlify.app/
 
 👋🏻 Abigail
