@@ -1,15 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const TopNav = () => {
   return (
     <div className="nav">
-      <Link to="/resume" alt="about page">
+      <a href="../resources/resume.pdf" alt="resume">
         Resume
-      </Link>
-      <Link to="/about" alt="resume">
+      </a>
+      {/* <Link to="/about" alt="about page">
         About
-      </Link>
+      </Link> */}
     </div>
   );
 };

@@ -12,8 +12,8 @@ const Project = () => {
         ? filteredProjects.map((project) => (
             <div key={project.id} className="project-card">
               <p className="heading">{project.name}</p>
-              <p>{project.description}</p>
               <img src={project.image} alt={project.name} />
+              <p>{project.description}</p>
               <ul className="tags">
                 {project.tags.map((tag, index) => (
                   <li key={index}>{tag}</li>
@@ -21,7 +21,7 @@ const Project = () => {
               </ul>
               {project.site ? (
                 <a href={project.site}>
-                  <p>Check it out</p>
+                  <p>Go to site</p>
                 </a>
               ) : (
                 ""
@@ -29,6 +29,13 @@ const Project = () => {
               {project.gitHub ? (
                 <a href={project.gitHub}>
                   <p>Explore the code</p>
+                </a>
+              ) : (
+                ""
+              )}
+              {project.figma ? (
+                <a href={project.figma}>
+                  <p>See the Figma</p>
                 </a>
               ) : (
                 ""
@@ -38,8 +45,8 @@ const Project = () => {
         : projects.map((project) => (
             <div key={project.id} className="project-card">
               <p className="heading">{project.name}</p>
-              <p>{project.description}</p>
               <img src={project.image} alt={project.name} />
+              <p>{project.description}</p>
               <ul className="tags">
                 {project.tags.map((tag, index) => (
                   <li key={index}>{tag}</li>
@@ -47,7 +54,7 @@ const Project = () => {
               </ul>
               {project.site ? (
                 <a href={project.site}>
-                  <p>Check it out</p>
+                  <p>Go to site</p>
                 </a>
               ) : (
                 ""
@@ -55,6 +62,13 @@ const Project = () => {
               {project.gitHub ? (
                 <a href={project.gitHub}>
                   <p>Explore the code</p>
+                </a>
+              ) : (
+                ""
+              )}
+              {project.figma ? (
+                <a href={project.figma}>
+                  <p>See the Figma</p>
                 </a>
               ) : (
                 ""
