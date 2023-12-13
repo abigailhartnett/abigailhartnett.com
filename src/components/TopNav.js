@@ -4,9 +4,9 @@ import React from "react";
 const TopNav = () => {
   return (
     <div className="nav">
-      <a href="../resources/resume.pdf" alt="resume" className="button">
-        Resume
-      </a>
+      <button href="../resources/resume.pdf" alt="resume" className="button">
+        See Resume
+      </button>
       {/* <Link to="/about" alt="about page">
         About
       </Link> */}

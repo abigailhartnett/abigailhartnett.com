@@ -12,6 +12,15 @@ const Hero = () => {
         A marketing copywriter turned web developer, I'm passionate about
         building beautiful, functional digital experiences that users love.
       </p>
+
+      <button
+        href="../resources/resume.pdf"
+        alt="resume"
+        className="button"
+        style={{ marginBottom: "1.5rem" }}
+      >
+        See Resume
+      </button>
     </>
   );
 };

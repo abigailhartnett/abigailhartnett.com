@@ -36,7 +36,6 @@ a:hover {
 .nav-links {
   list-style-type: none;
   padding-left: 0;
-  max-width: 50%;
   margin-bottom: 2.5rem;
   padding-top: 1rem;
   border-top: #e8e8e8 1px solid;
@@ -110,16 +109,18 @@ a:hover {
 
 .button {
   text-decoration: none;
-  padding: 0.75rem 1.25rem;
-  background-color: #e8e8e8;
-  border-radius: 0.25rem;
+  padding: 0.75rem 2rem;
+  background-color: #aed49b;
+  border-radius: 0.2rem;
   color: black;
+  border: none;
+  box-shadow: 0px 0px 10px #e8e8e8;
+  font-size: 1rem;
 }
 
 .button:hover {
   cursor: pointer;
-  background-color: #cfcfcf;
-  font-weight: bold;
+  background-color: #89ac78;
 }
 
 .text-link {
