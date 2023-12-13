@@ -6,7 +6,7 @@ const Hero = () => {
       <h1>Abigail Hartnett</h1>
       <p>
         Sr. Manager of Content & Web Experience at{" "}
-        <a href="www.maxio.com">Maxio</a>
+        <a href="https://www.maxio.com">Maxio</a>
       </p>
       <p>
         A marketing copywriter turned web developer, I'm passionate about
