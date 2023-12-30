@@ -11,7 +11,7 @@ const Project = () => {
       {slug
         ? filteredProjects.map((project) => (
             <div key={project.id} className="project-card">
-              <p className="heading">{project.name}</p>
+              <p className="heading-4">{project.name}</p>
               <img src={project.image} alt={project.name} />
               <p>{project.description}</p>
               <ul className="tags">
@@ -34,9 +34,12 @@ const Project = () => {
                 ""
               )}
               {project.figma ? (
-                <a href={project.figma} className="text-link">
-                  <p>See the Figma</p>
-                </a>
+                <div className="button-secondary">
+                  <a href={project.figma} className="text-link">
+                    <i class="fa-brands fa-figma"></i>
+                    <p>See the Figma</p>
+                  </a>
+                </div>
               ) : (
                 ""
               )}
@@ -44,7 +47,7 @@ const Project = () => {
           ))
         : projects.map((project) => (
             <div key={project.id} className="project-card">
-              <p className="heading">{project.name}</p>
+              <p className="heading-4">{project.name}</p>
               <img src={project.image} alt={project.name} />
               <p>{project.description}</p>
               <ul className="tags">
@@ -67,8 +70,10 @@ const Project = () => {
                 ""
               )}
               {project.figma ? (
-                <a href={project.figma} className="text-link">
-                  <p>See the Figma</p>
+                <a href={project.figma}>
+                  <div>
+                    <p>See the Figma</p>
+                  </div>
                 </a>
               ) : (
                 ""

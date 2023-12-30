@@ -12,7 +12,9 @@ const HomePage = ({ content }) => {
       <main>
         <TopNav />
         <Hero />
-        <ProjectIndex />
+        <div className="content">
+          <ProjectIndex />
+        </div>
         <Footer />
       </main>
     </div>

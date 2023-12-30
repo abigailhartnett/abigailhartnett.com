@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  color: #2b0000;
+  background-color: #f8f4f0;
 }
 
 .container {
@@ -9,8 +11,19 @@
   padding: 0 2rem;
 }
 
-h1 {
-  margin-bottom: 0.5rem;
+p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+}
+
+li {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
 }
 
 a:hover {
@@ -21,11 +34,53 @@ a:hover {
   font-weight: bold;
 }
 
+.heading-1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.heading-2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.heading-3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.heading-4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+.heading-5 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 820px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: top;
   gap: 1rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .nav Link {
@@ -38,7 +93,7 @@ a:hover {
   padding-left: 0;
   margin-bottom: 2.5rem;
   padding-top: 1rem;
-  border-top: #e8e8e8 1px solid;
+  border-top: #2b0000 1px solid;
 }
 
 .nav-links {
@@ -52,15 +107,14 @@ a:hover {
 
 .filter-button {
   text-decoration: none;
-  color: black;
 }
 
 .filter-button-active {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .filter-button:hover {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* Cards */
@@ -77,13 +131,16 @@ a:hover {
 }
 
 .project-card {
-  border: #e8e8e8 solid 1px;
-  box-shadow: 0px 0px 10px #e8e8e8;
+  /* border: #e8e8e8 solid 1px;
+  box-shadow: 0px 0px 10px #e8e8e8; */
   padding: 1rem;
 }
 
 .project-card img {
   max-width: 100%;
+  background: #fff;
+  border: #f4f1ed solid 1px;
+  box-shadow: 0px 0px 10px #f3eee9;
 }
 
 .tags {
@@ -96,7 +153,6 @@ a:hover {
   margin-right: 0.75rem;
   background-color: lightgray;
   padding: 0.25rem 1rem;
-  color: black;
   list-style-type: none;
 }
 
@@ -112,7 +168,6 @@ a:hover {
   padding: 0.75rem 2rem;
   background-color: #aed49b;
   border-radius: 0.2rem;
-  color: black;
   border: none;
   box-shadow: 0px 0px 10px #e8e8e8;
   font-size: 1rem;
@@ -123,10 +178,13 @@ a:hover {
   background-color: #89ac78;
 }
 
-.text-link {
-  color: black;
+.button-secondary {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
-.text-link:hover {
-  font-weight: bold;
+.icon {
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
 }

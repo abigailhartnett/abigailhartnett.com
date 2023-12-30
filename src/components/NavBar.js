@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <div>
+      <h2 className="heading-2">Projects</h2>
       <ul className="nav-links flex">
         <li>
           <NavLink

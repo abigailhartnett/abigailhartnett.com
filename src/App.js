@@ -1,4 +1,5 @@
 import "./App.css";
+import { Helmet } from "react-helmet";
 import HomePage from "./pages/index";
 import {
   RouterProvider,
@@ -17,9 +18,9 @@ const appRouter = createBrowserRouter(
 
 function App() {
   return (
-    <>
+    <div>
       <RouterProvider router={appRouter} />
-    </>
+    </div>
   );
 }
 
