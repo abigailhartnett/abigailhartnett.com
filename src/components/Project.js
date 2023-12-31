@@ -19,30 +19,28 @@ const Project = () => {
                   <li key={index}>{tag}</li>
                 ))}
               </ul>
-              {project.site ? (
-                <a href={project.site} className="text-link">
-                  <p>Go to site</p>
-                </a>
-              ) : (
-                ""
-              )}
-              {project.gitHub ? (
-                <a href={project.gitHub} className="text-link">
-                  <p>Explore the code</p>
-                </a>
-              ) : (
-                ""
-              )}
-              {project.figma ? (
-                <div className="button-secondary">
-                  <a href={project.figma} className="text-link">
-                    <i class="fa-brands fa-figma"></i>
-                    <p>See the Figma</p>
-                  </a>
-                </div>
-              ) : (
-                ""
-              )}
+              <div style={{ marginTop: "0.5rem" }}>
+                {project.site ? <a href={project.site}>Go to site</a> : ""}
+              </div>
+              <div style={{ marginTop: "0.5rem" }}>
+                {project.gitHub ? (
+                  <a href={project.gitHub}>Explore the code</a>
+                ) : (
+                  ""
+                )}
+              </div>
+              <div style={{ marginTop: "0.5rem" }}>
+                {project.figma ? (
+                  <div className="button-secondary">
+                    <a href={project.figma}>
+                      <i class="fa-brands fa-figma"></i>
+                      See the Figma
+                    </a>
+                  </div>
+                ) : (
+                  ""
+                )}
+              </div>
             </div>
           ))
         : projects.map((project) => (
@@ -55,29 +53,19 @@ const Project = () => {
                   <li key={index}>{tag}</li>
                 ))}
               </ul>
-              {project.site ? (
-                <a href={project.site} className="text-link">
-                  <p>Go to site</p>
-                </a>
-              ) : (
-                ""
-              )}
-              {project.gitHub ? (
-                <a href={project.gitHub} className="text-link">
-                  <p>Explore the code</p>
-                </a>
-              ) : (
-                ""
-              )}
-              {project.figma ? (
-                <a href={project.figma}>
-                  <div>
-                    <p>See the Figma</p>
-                  </div>
-                </a>
-              ) : (
-                ""
-              )}
+              <div style={{ marginTop: "0.5rem" }}>
+                {project.site ? <a href={project.site}>Go to site</a> : ""}
+              </div>
+              <div style={{ marginTop: "0.5rem" }}>
+                {project.gitHub ? (
+                  <a href={project.gitHub}>Explore the code</a>
+                ) : (
+                  ""
+                )}
+              </div>
+              <div style={{ marginTop: "0.5rem" }}>
+                {project.figma ? <a href={project.figma}>See the Figma</a> : ""}
+              </div>
             </div>
           ))}
     </>

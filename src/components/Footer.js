@@ -8,10 +8,10 @@ const Footer = () => {
           href="https://www.linkedin.com/in/abigail-hartnett-ba336758/"
           className="icon"
         >
-          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-linkedin" style={{ color: "#B8BFC7" }}></i>
         </a>
         <a href="https://github.com/abigailhartnett" className="icon">
-          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-github" style={{ color: "#B8BFC7" }}></i>
         </a>
       </div>
       <a
@@ -20,12 +20,13 @@ const Footer = () => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
+          color: "#B8BFC7",
         }}
       >
-        <p>Watch me bulid this site</p>
+        Watch me bulid this site
         <i
           className="fa-solid fa-arrow-up-right-from-square"
-          style={{ marginLeft: "0.75rem" }}
+          style={{ marginLeft: "0.75rem", color: "#B8BFC7" }}
         ></i>
       </a>
     </div>

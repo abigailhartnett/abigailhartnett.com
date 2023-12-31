@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  color: #2b0000;
-  background-color: #f8f4f0;
+  color: #f4f5f6;
+  background-color: #26282b;
 }
 
 .container {
@@ -23,7 +23,8 @@ li {
 
 a {
   font-family: "DM Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
+  color: #b8bfc7;
 }
 
 a:hover {
@@ -39,13 +40,15 @@ a:hover {
   font-weight: 400;
   font-size: 4rem;
   margin: 0;
+  color: #acbec8;
 }
 
 .heading-2 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-size: 2rem;
-  margin-bottom: 0;
+  margin: 0;
+  color: #acbec8;
 }
 
 .heading-3 {
@@ -64,6 +67,32 @@ a:hover {
   font-family: "DM Sans", sans-serif;
   font-weight: 300;
   font-size: 0.8rem;
+}
+
+/* .button {
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  background-color: #aed49b;
+  border-radius: 0.2rem;
+  border: none;
+  box-shadow: 0px 0px 10px #e8e8e8;
+  font-size: 1rem;
+} */
+
+/* .button:hover {
+  cursor: pointer;
+} */
+
+.button-secondary {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+  color: #b8bfc7;
 }
 
 .content {
@@ -93,7 +122,7 @@ a:hover {
   padding-left: 0;
   margin-bottom: 2.5rem;
   padding-top: 1rem;
-  border-top: #2b0000 1px solid;
+  border-top: #2e4d55 1px solid;
 }
 
 .nav-links {
@@ -107,14 +136,16 @@ a:hover {
 
 .filter-button {
   text-decoration: none;
+  font-weight: 500;
 }
 
 .filter-button-active {
-  font-weight: 500;
+  color: #f4f5f6;
 }
 
 .filter-button:hover {
   font-weight: 500;
+  color: #f4f5f6;
 }
 
 /* Cards */
@@ -139,8 +170,8 @@ a:hover {
 .project-card img {
   max-width: 100%;
   background: #fff;
-  border: #f4f1ed solid 1px;
-  box-shadow: 0px 0px 10px #f3eee9;
+  border: #212326 solid 1px;
+  box-shadow: 0px 0px 10px #212326;
 }
 
 .tags {
@@ -151,7 +182,7 @@ a:hover {
 
 .tags li {
   margin-right: 0.75rem;
-  background-color: lightgray;
+  background-color: #2e4d55;
   padding: 0.25rem 1rem;
   list-style-type: none;
 }
@@ -159,32 +190,6 @@ a:hover {
 /* Other */
 .development-note {
   padding: 1rem 2rem;
-  background-color: lightgray;
+  background-color: #2e4d55;
   max-width: 600px;
-}
-
-.button {
-  text-decoration: none;
-  padding: 0.75rem 2rem;
-  background-color: #aed49b;
-  border-radius: 0.2rem;
-  border: none;
-  box-shadow: 0px 0px 10px #e8e8e8;
-  font-size: 1rem;
-}
-
-.button:hover {
-  cursor: pointer;
-  background-color: #89ac78;
-}
-
-.button-secondary {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.icon {
-  font-size: 1.5rem;
-  padding: 0 0.5rem;
 }

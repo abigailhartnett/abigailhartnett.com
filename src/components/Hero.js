@@ -5,9 +5,15 @@ const Hero = () => {
     <div className="nav">
       <div>
         <div
-          style={{ borderBottom: "#2b0000 1px solid", marginBottom: "1rem" }}
+          style={{ borderBottom: "#2E4D55 1px solid", marginBottom: "1rem" }}
         >
-          <h1 className="heading-2">Abigail Hartnett</h1>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <img
+              src="../logo.png"
+              style={{ maxWidth: "32px", marginRight: "1rem" }}
+            ></img>
+            <h1 className="heading-2">Abigail Hartnett</h1>
+          </div>
           <div style={{ marginBottom: "1rem" }}>
             <p className="heading-4">
               A front-end developer finding intuitive solutions to complex
@@ -23,7 +29,7 @@ const Hero = () => {
           <a href="../resources/resume.pdf" alt="resume">
             <i
               class="fa-solid fa-download"
-              style={{ marginRight: ".5rem" }}
+              style={{ marginRight: ".5rem", color: "#b8bfc7" }}
             ></i>
             Resume
           </a>
@@ -35,7 +41,7 @@ const Hero = () => {
           <a href="../resources/resume.pdf" alt="resume">
             <i
               class="fa-solid fa-download"
-              style={{ marginRight: ".5rem" }}
+              style={{ marginRight: ".5rem", color: "#b8bfc7" }}
             ></i>
             Resume
           </a>
