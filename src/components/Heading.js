@@ -14,7 +14,7 @@ const Heading = () => {
         <p>
           While this tinkering is super fun, cobbling together three distinct
           systems to address a single issue frequently results in a solution
-          more more elaborate than the problem required, making it just as
+          more elaborate than the problem required, making it just as
           problematic in the end.
         </p>
         <p>
