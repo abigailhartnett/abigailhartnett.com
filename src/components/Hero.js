@@ -11,6 +11,7 @@ const Hero = () => {
             <img
               src="../logo.png"
               style={{ maxWidth: "32px", marginRight: "1rem" }}
+              alt="Logo"
             ></img>
             <h1 className="heading-2">Abigail Hartnett</h1>
           </div>
