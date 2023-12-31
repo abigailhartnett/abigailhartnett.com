@@ -1,5 +1,4 @@
 import "./App.css";
-import { Helmet } from "react-helmet";
 import HomePage from "./pages/index";
 import {
   RouterProvider,
