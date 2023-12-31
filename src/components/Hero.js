@@ -40,7 +40,7 @@ const Hero = () => {
       <div className="nav">
         <div>
           <a
-            href="https://hartnett.notion.site/2e82e0808a154ea29b690ddda47840c1?v=d7b08c983e4b42899b3b4970f7ee914c"
+            href="https://hartnett.notion.site/Production-Journal-03cd543a0d054a9fa8539033127d9ecc?pvs=4"
             alt="Production Journal"
             style={{ marginRight: "1rem" }}
           >
