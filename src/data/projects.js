@@ -31,7 +31,7 @@ const projects = [
     tags: ["react"],
     slug: "development",
     gitHub: "https://github.com/abigailhartnett/jammming",
-    site: "",
+    site: "https://65918ef2c44d5b0008e49085--abigailhartnett-codecademy-jammming.netlify.app/",
   },
   {
     id: 4,
