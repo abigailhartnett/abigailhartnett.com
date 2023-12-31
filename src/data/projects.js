@@ -25,8 +25,8 @@ const projects = [
   },
   {
     id: 5,
-    name: "Jammming App",
-    description: `When it's done, this React app will enable you to create a new playlist and save it to your personal Spotify account.`,
+    name: "Spotify App",
+    description: `Create a custom playlist and save it to your personal Spotify account.`,
     image: "../images/react.png",
     tags: ["react"],
     slug: "development",

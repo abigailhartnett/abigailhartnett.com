@@ -39,6 +39,17 @@ const Hero = () => {
 
       <div className="nav">
         <div>
+          <a
+            href="https://hartnett.notion.site/2e82e0808a154ea29b690ddda47840c1?v=d7b08c983e4b42899b3b4970f7ee914c"
+            alt="Production Journal"
+            style={{ marginRight: "1rem" }}
+          >
+            <i
+              class="fa-solid fa-i-cursor"
+              style={{ marginRight: ".5rem", color: "#b8bfc7" }}
+            ></i>
+            Journal
+          </a>
           <a href="../resources/resume.pdf" alt="resume">
             <i
               class="fa-solid fa-download"
