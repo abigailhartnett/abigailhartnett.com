@@ -11,7 +11,9 @@ const Project = () => {
       {slug
         ? filteredProjects.map((project) => (
             <div key={project.id} className="project-card">
-              <p className="heading-4">{project.name}</p>
+              {project.caseStudy ? 
+                <a href={project.caseStudy} className="heading-4">{project.name}</a> : 
+                <p className="heading-4">{project.name}</p>}                     
               <img src={project.image} alt={project.name} />
               <p>{project.description}</p>
               <ul className="tags">
@@ -45,7 +47,16 @@ const Project = () => {
           ))
         : projects.map((project) => (
             <div key={project.id} className="project-card">
-              <p className="heading-4">{project.name}</p>
+              {project.site ? 
+              
+                <a href={project.site} className="button-secondary">
+                  <p className="heading-4" >{project.name}</p>
+                  <i class="fa-solid fa-square-arrow-up-right"
+                  style={{ marginLeft: ".5rem" }}
+                  ></i>
+                </a>
+              : 
+                <p className="heading-4">{project.name}</p>} 
               <img src={project.image} alt={project.name} />
               <p>{project.description}</p>
               <ul className="tags">
@@ -54,7 +65,7 @@ const Project = () => {
                 ))}
               </ul>
               <div style={{ marginTop: "0.5rem" }}>
-                {project.site ? <a href={project.site}>Go to site</a> : ""}
+                {project.caseStudy ? <a href={project.caseStudy}>Read the case study</a> : ""}
               </div>
               <div style={{ marginTop: "0.5rem" }}>
                 {project.gitHub ? (

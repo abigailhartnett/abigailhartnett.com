@@ -6,7 +6,8 @@ const projects = [
     image: "../images/spotifyApp.png",
     tags: ["react"],
     slug: "development",
-    gitHub: "https://github.com/abigailhartnett/jammming",
+    caseStudy: "https://www.notion.so/hartnett/Playing-with-APIs-How-I-created-a-Spotify-Playlist-Builder-a45615e2f369454e8081602fc7594501?pvs=4",
+    // gitHub: "https://github.com/abigailhartnett/jammming",
     site: "https://abigailhartnett-codecademy-jammming.netlify.app/",
   },
   {
@@ -36,11 +37,12 @@ const projects = [
   {
     id: 4,
     name: "Credit Card Validator",
-    description: `This code takes in an array of credit card numbers and determines which are valid.`,
+    description: `Takes in an array of credit card numbers and determines which are valid.`,
     image: "../images/javascript.png",
     tags: ["javascript"],
     slug: "development",
-    gitHub: "https://github.com/abigailhartnett/credit-card-checker",
+    site: "https://github.com/abigailhartnett/credit-card-checker",
+    // gitHub: "https://github.com/abigailhartnett/credit-card-checker",
   },
   // {
   //   id: 3,
@@ -61,9 +63,9 @@ const projects = [
     tags: ["figma"],
     slug: "design",
     gitHub: "",
-    site: "",
-    figma:
-      "https://www.figma.com/file/gOnxG7WkfMuAv9xnCBZvr8d0/bitesize?type=design&node-id=914%3A2&mode=design&t=Ew1QCojGH1NODE12-1",
+    site: "https://www.figma.com/file/gOnxG7WkfMuAv9xnCBZvr8d0/bitesize?type=design&node-id=914%3A2&mode=design&t=Ew1QCojGH1NODE12-1",
+    // figma:
+    //   "https://www.figma.com/file/gOnxG7WkfMuAv9xnCBZvr8d0/bitesize?type=design&node-id=914%3A2&mode=design&t=Ew1QCojGH1NODE12-1",
   },
 ];
 
