@@ -7,10 +7,10 @@ const projectTypes = [
     type: "Design",
     slug: "design",
   },
-  {
-    type: "Copywriting",
-    slug: "copywriting",
-  },
+  // {
+  //   type: "Copywriting",
+  //   slug: "copywriting",
+  // },
 ];
 
 export default projectTypes;
