@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="hero-link">
           <a href="../resources/resume.pdf" alt="resume">
             <i
               class="fa-solid fa-download"

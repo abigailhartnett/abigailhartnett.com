@@ -80,7 +80,7 @@ a:hover {
 }
 
 .button-secondary:hover {
-  color: #fff;
+  color: #f4f5f6;
 }
 
 .icon {
@@ -99,15 +99,23 @@ a:hover {
 }
 
 .nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
   justify-content: space-between;
   align-items: top;
   gap: 1rem;
   margin: 1rem 0;
 }
 
-.nav Link {
-  flex: auto;
+@media (max-width: 500px) {
+  .nav {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
+  .hero-link {
+    display: none;
+  }
 }
 
 /* On-page nav */

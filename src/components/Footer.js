@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="nav">
-      <div>
+      <div className="top-nav-links">
         <a
           href="https://www.linkedin.com/in/abigail-hartnett-ba336758/"
           className="icon"
@@ -16,17 +16,12 @@ const Footer = () => {
       </div>
       <a
         href="https://github.com/abigailhartnett/abigailhartnett.com"
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          color: "#B8BFC7",
-        }}
+        className="button-secondary"
       >
         Watch me bulid this site
         <i
-          className="fa-solid fa-arrow-up-right-from-square"
-          style={{ marginLeft: "0.75rem", color: "#B8BFC7" }}
+          className="fa-solid fa-square-arrow-up-right"
+          style={{ marginLeft: "0.75rem" }}
         ></i>
       </a>
     </div>

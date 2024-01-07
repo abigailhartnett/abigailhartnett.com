@@ -9,6 +9,7 @@ const Project = () => {
   return (
     <>
       {slug
+      //Delete excess code
         ? filteredProjects.map((project) => (
             <div key={project.id} className="project-card">
               {project.caseStudy ? 
