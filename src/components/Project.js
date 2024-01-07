@@ -66,7 +66,11 @@ const Project = () => {
                 ))}
               </ul>
               <div style={{ marginTop: "0.5rem" }}>
-                {project.caseStudy ? <a href={project.caseStudy}>Read the case study</a> : ""}
+                {project.caseStudy ? 
+                <a href={project.caseStudy} className="button-secondary">
+                  <i class="fa-solid fa-bookmark"
+                  style={{ marginRight: ".5rem" }}></i>
+                  <p>Read the case study</p></a> : ""}
               </div>
               <div style={{ marginTop: "0.5rem" }}>
                 {project.gitHub ? (
@@ -76,7 +80,14 @@ const Project = () => {
                 )}
               </div>
               <div style={{ marginTop: "0.5rem" }}>
-                {project.figma ? <a href={project.figma}>See the Figma</a> : ""}
+                {project.figma ? <a 
+                  href={project.figma}
+                  className="button-secondary"
+                  >
+                <i class="fa-brands fa-figma"
+                  style={{ marginRight: ".5rem" }}></i>
+                  <p>See the Figma</p>
+                  </a> : ""}
               </div>
             </div>
           ))}

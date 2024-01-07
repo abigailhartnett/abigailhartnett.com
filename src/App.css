@@ -79,7 +79,36 @@ a:hover {
   color: #b8bfc7;
 }
 
+.button-secondary p {
+  color: #b8bfc7;
+  font-weight: 500;
+}
+
+/* .button-secondary:not(i) {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+} */
+
 .button-secondary:hover {
+  color: #f4f5f6;
+}
+
+.button-secondary:hover p {
+  color: #f4f5f6;
+}
+
+.nav-button-secondary {
+  text-decoration: none;
+  color: #b8bfc7;
+  
+}
+
+/* .nav-button-secondary:not(i) {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+} */
+
+.nav-button-secondary:hover {
   color: #f4f5f6;
 }
 

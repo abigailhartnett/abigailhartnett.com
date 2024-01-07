@@ -26,8 +26,8 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="hero-link">
-          <a href="../resources/resume.pdf" alt="resume">
+        <div className="ero-link">
+          <a href="../resources/resume.pdf" alt="resume" className="button-secondary hero-link">
             <i
               class="fa-solid fa-download"
               style={{ marginRight: ".5rem", color: "#b8bfc7" }}
@@ -43,14 +43,15 @@ const Hero = () => {
             href="https://hartnett.notion.site/Production-Journal-03cd543a0d054a9fa8539033127d9ecc?pvs=4"
             alt="Production Journal"
             style={{ marginRight: "1rem" }}
+            className="nav-button-secondary"
           >
             <i
               class="fa-solid fa-i-cursor"
-              style={{ marginRight: ".5rem", color: "#b8bfc7" }}
+              style={{ marginRight: ".5rem", color: "#b8bfc7"}}
             ></i>
             Journal
           </a>
-          <a href="../resources/resume.pdf" alt="resume">
+          <a href="../resources/resume.pdf" alt="resume" className="nav-button-secondary">
             <i
               class="fa-solid fa-download"
               style={{ marginRight: ".5rem", color: "#b8bfc7" }}
