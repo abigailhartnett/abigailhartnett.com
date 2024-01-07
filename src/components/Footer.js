@@ -21,7 +21,7 @@ const Footer = () => {
         Watch me bulid this site
         <i
           className="fa-solid fa-square-arrow-up-right"
-          style={{ marginLeft: "0.75rem" }}
+          style={{ marginLeft: "0.5rem" }}
         ></i>
       </a>
     </div>
