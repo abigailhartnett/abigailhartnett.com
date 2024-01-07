@@ -3,7 +3,7 @@ const projects = [
     id: 5,
     name: "Spotify App",
     description: `Connects to Spotify's API, allowing users to create a custom playlist and save it to your personal Spotify account.`,
-    image: "../images/react.png",
+    image: "../images/spotifyApp.png",
     tags: ["react"],
     slug: "development",
     gitHub: "https://github.com/abigailhartnett/jammming",
