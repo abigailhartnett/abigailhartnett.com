@@ -9,6 +9,7 @@ const projects = [
     caseStudy: "https://www.notion.so/hartnett/Playing-with-APIs-How-I-created-a-Spotify-Playlist-Builder-a45615e2f369454e8081602fc7594501?pvs=4",
     // gitHub: "https://github.com/abigailhartnett/jammming",
     site: "https://abigailhartnett-codecademy-jammming.netlify.app/",
+    figma: "",
   },
   {
     id: 6,
@@ -17,10 +18,11 @@ const projects = [
     image: "../images/pricing.png",
     tags: ["figma", "contentful"],
     slug: "design",
+    caseStudy: "https://www.notion.so/hartnett/Redesigning-Maxio-Pricing-Page-f3e5126995e848a08006196091f57073?pvs=4",
     gitHub: "",
     site: "https://maxio.com/pricing",
-    figma:
-      "https://www.figma.com/file/ihh80UG5E34GVLTXrZRl2R/Maxio-Pricing-Page?type=design&node-id=0%3A1&mode=design&t=SMFYnARWWxxIZHe5-1",
+    // figma:
+    //   "https://www.figma.com/file/ihh80UG5E34GVLTXrZRl2R/Maxio-Pricing-Page?type=design&node-id=0%3A1&mode=design&t=SMFYnARWWxxIZHe5-1",
   },
   // {
   //   id: 8,
@@ -41,8 +43,10 @@ const projects = [
     image: "../images/javascript.png",
     tags: ["javascript"],
     slug: "development",
-    site: "https://github.com/abigailhartnett/credit-card-checker",
-    // gitHub: "https://github.com/abigailhartnett/credit-card-checker",
+    caseStudy: "",
+    gitHub: "https://github.com/abigailhartnett/credit-card-checker",
+    site: "",
+    figma: "",
   },
   // {
   //   id: 3,
@@ -62,10 +66,11 @@ const projects = [
     image: "../images/bitesize.png",
     tags: ["figma"],
     slug: "design",
+    caseStudy: "",
     gitHub: "",
-    site: "https://www.figma.com/file/gOnxG7WkfMuAv9xnCBZvr8d0/bitesize?type=design&node-id=914%3A2&mode=design&t=Ew1QCojGH1NODE12-1",
-    // figma:
-    //   "https://www.figma.com/file/gOnxG7WkfMuAv9xnCBZvr8d0/bitesize?type=design&node-id=914%3A2&mode=design&t=Ew1QCojGH1NODE12-1",
+    site: "",
+    figma:
+      "https://www.figma.com/file/gOnxG7WkfMuAv9xnCBZvr8d0/bitesize?type=design&node-id=914%3A2&mode=design&t=Ew1QCojGH1NODE12-1",
   },
 ];
 
