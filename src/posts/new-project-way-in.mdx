@@ -1,0 +1,73 @@
+# I started a new project
+
+<br />
+
+_May 11, 2024_
+
+I took a break from BiteSize to work on a brand new app. It was simple enough that I felt I could get a good-enough working prototype done in a day, and I was right!
+
+She ain’t much to look at, but she works. I’m calling it… wait for it… WAYin\* (actually good name pending).
+
+<img
+	src="/images/WAYin/WAYin_05-11-2024_image-1.png"
+	style={{ height: "600px", padding: "1.5rem 0" }}
+/>
+
+Another mobile-designed app, this is something I’ve wished existed for a long time. It’s simple and single-purpose.
+
+A counter.
+
+I’ve dieted off and on—the classic woman who’s constantly chasing her high school (or, in my case, pre-COVID) body, and I’ve always enjoyed tracking my progress somewhere I can see. Usually it’s a spreadsheet, but I wanted something else.
+
+When it comes to dieting, I don’t like tracking my weight as a main metric of success. Weight fluctuates wildly over time, especially for women, and is also a metric focused on outcomes. I want to track one focused on inputs.
+
+In this case, that’s calories.
+
+This app has one purpose: take in the appropriate information to track both my effort, my results, and my progress toward my stated goal according to my effort (not my results). This isn’t where I track the calories I’ve eaten or burned, just the daily deficit achieved, and the results that should, theoretically, follow from that.
+
+**To get this puppy up and running, I set up a couple simple tables in supaBase:**
+
+A journal:
+
+[Hooking Supabase up to a React project](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hUb6sHthUEwG7r9VDPBMKO) is one of the easiest things in the world, so I highly recommend it as a simple database you don’t have to build yourself.
+
+Once a user is created (something I did directly in supabase for now, as I’m the only one using this app), the app takes in three pieces of information on a daily basis: today’s date, weigh in, and deficit logged.
+
+<img
+	src="/images/WAYin/WAYin_05-11-2024_image-2.png"
+	style={{ padding: "1.5rem 0" }}
+/>
+
+Then, it performs some _minor_ calculations to show:
+
+- My weekly progress—total deficit, and the equivalent weight lost according to deficit. New weeks start on Monday (<rant>the correct day to begin the week </rant>). I’m keeping the major focus on weekly progress, not total, because I think it will be more motivating to see a very small number quickly jump to a big one vs. a big number jumping to a somewhat bigger one. The goal is to keep momentum, so feeling like I have a goal I can achieve this week, vs. a long-term goal that will take months, will hopefully keep the fire burning.
+- How far ahead/behind I am according to my set goal weight and timeframe, to not lose sight of my progress toward the main goal
+- The deficit I would need to hit in order to catch up in the next 7 days. I settled on a rolling number here to give a little grace. Trying to catch up by the end of the week is often unatainable (that number would likely just get bigger as the week goes), but spreading this catch-up out over the course of the whole project would be too insignificant of a catch-up mechanic, and would be a new overall deficit that I’m stuck at for the next X months. I’ll try out 7 days, and we’ll see how it goes. If it continues to climb up and up, I’ll likely stretch out my goal instead of increasing the catch-up length, as that’s likely an indicator that my goal isn’t actually achievable with the life I want to live.
+- My projected weight according to the total deficit I’ve achieved over the course of logging
+- And my average weight from the last 7 entries in my diary. This will hopefully be a more accurate representation of my actual results due to the aforementioned totally-normal fluctuations in weight that humans experience.
+
+It also shows my past entries day-by-day to ensure I don’t accidentally log the same information twice.
+
+<img
+	src="/images/WAYin/WAYin_05-11-2024_image-3.png"
+	style={{ height: "600px", padding: "1.5rem 0" }}
+/>
+
+This is by no means the final state of this app. I’d like to add a way to edit and delete past entries, for one. And for two, it needs a _major_ glow-up.
+
+But my goal for now isn’t to make anything flashy. It’s to make something that serves the purpose I want it to serve. I’ve met that goal in WAYin, so I’m considering it done for now. I’ll test it out over the next week and keep track of what seems broken or what I’m dissatisfied with.
+
+When I started BiteSize, I think I put too much effort into the layout, look, and feel before pinning down the core feature set, which made going back and adding in those features a pain in the a$s. I’d like to not repeat this mistake.
+
+Don’t get me wrong, BiteSize is a _much_ bigger project than WAYin with a hellovalot more features planned than WAYin will ever have, so it made sense to put some serious thought into the overall functionality and user flows before getting started.
+
+WAYin is, and probably will always be, just a few simple screens. So, I didn’t overthink it. I spent _maybe_ 30 minutes wireframing a general structure, then just went for it and laid out the information in a way that makes sense to me as the creator, knowing it will almost certainly change in phase 2.
+
+<img
+	src="/images/WAYin/WAYin_05-11-2024_image-4.png"
+	style={{ height: "600px", padding: "1.5rem 0" }}
+/>
+
+\*It’s called WAYin because not only am I weighing in, but I’m way in on this goal… get it? 😅
+
+<img src="https://i.giphy.com/AuIvUrZpzBl04.webp" />

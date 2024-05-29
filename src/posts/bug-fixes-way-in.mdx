@@ -1,0 +1,30 @@
+# WAY-in: Squashing bugs
+
+_May 12, 2024_
+
+## Bug fixes
+
+### Updating average weight
+
+I had intended the weight metric in the upper right-hand corner of the screen to represent the rolling seven day average of the user’s logged weights. However, I realized I was actually just pulling the most recent weight entry.
+
+I’ve fixed this now to show the correct rolling average, as well as naming that stat “average” for better clarity.
+
+### Added features
+
+While I was there, I decided to add a new metric for “overall loss”. The only ongoing weight loss metric (above the “this week’s deficit” number) shows weight lost _this week._ I’d like to keep that weekly weight loss metric, as I do feel it will be motivating to watch that number steadily increase throughout the week. However, it’s important not to lose sight of the overall goal. So, I added a “total estimated loss” which subtracts the seven-day average weight loss from the starting weight.
+
+Additionally, I added a few labels to help clarify what each entry is, as well as what the statistics in the upper right-hand corner of the screen represent.
+
+<img
+	src="/images/WAYin/WAY-in_05-12-2024_1.png"
+	style={{ height: "600px", padding: "1.5rem 0" }}
+/>
+
+_I added some sample entries marked way in the future and way in the past to ensure I was pulling the correct entries for the seven-day average weight._
+
+I added some sample entries marked way in the future and way in the past to ensure I was pulling the correct entries for the seven-day average weight.
+
+### Next features
+
+I do need to add one more feature—editing entries. I knew at the start I would need the ability to edit daily journal entries, but didn’t realize how soon it would come into play. The first day I logged for real, I later realized I had logged the wrong deficit number. 🤦🏻‍♀️ I had no way to update this in the app, and that’s a major problem. So, editing entries is the next fix on the way.

@@ -1,12 +1,12 @@
 import React from "react";
 import Page from "../components/Page";
 
-const AboutPage = ({ slug }) => {
+const ProjectsPage = () => {
 	return (
 		<Page>
-			<h1>About.me</h1>
+			<h1>Projects</h1>
 		</Page>
 	);
 };
 
-export default AboutPage;
+export default ProjectsPage;

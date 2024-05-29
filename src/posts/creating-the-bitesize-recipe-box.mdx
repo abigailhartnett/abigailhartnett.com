@@ -1,0 +1,46 @@
+# Creating the BiteSize Recipe Box
+
+<br />
+
+_May 27, 2024_
+
+The two most crucial features that set BiteSize apart are (or will be) the Pantry and the Recipe Box.
+
+The whole point is to be able to manage your pantry and create recipes based on what ingredients you have in stock. While this will expand to more features (meal planning, etc.), getting these two systems working together is the crucial first step.
+
+Since the Pantry is now in a (somewhat) stable place as far as functionality goes, I wanted to get the fundamentals of the Recipe Box working. This required creating two relative databases—one for your recipes, and one for the ingredients associated with those recipes.
+
+Since, eventually, I want to be able to manage recipes and meal planning based on their “readiness” (how many of the required ingredients one has in stock), it was important that a recipe’s ingredients be associated with the ingredients in your pantry.
+
+<iframe
+	height="640"
+	src="/videos/BiteSize_2024-05-27_Building-Recipe-Box.mp4"
+	type="video/mp4"
+	frameborder="0"
+	allowfullscreen
+	style={{ padding: "1.5rem 0" }}
+></iframe>
+
+It’s rough, but it’s working! I can add new recipes and associate them with my grocery items, which I’m crazy excited about—populating a specific recipe’s ingredient list based on the pantry really was the hardest part.
+
+As I said previously, this required creating two more databases that related to each other:
+
+- The `recipe` database includes things like the recipe title and instructions. It also has a column related to ingredients from the new recipeIngredients database
+
+- `recipeIngredients` populates a new line item for each ingredient. This database is almost entirely comprised of relations with only `amount` and `unit` being populated uniquely. Each database entry relates the pantryItem name with the recipeName and slug, allowing me to pull a very specific set of ingredients—and their quantities—into the recipe page’s Ingredients section.
+
+I still need to build in a few more features before I’ll find this section of the app actually helpful:
+
+- **Item statuses:** I want to see if my ingredients are in stock, and if not, I want to be able to add them to my list straight from the recipe page
+
+- **Recipe readiness:** Again, the whole point is to be able to plan based on what you have, so I need a readiness calculation for each recipe. I need to be able to sort by this calculation too, for easier planning
+
+- **Edit recipe:** Currently there’s no way to edit a recipe (or an ingredient, for that matter). This is critically important not just because I may have made a mistake when creating a new recipe, but as one cooks, I want to allow the option to tailor the recipe to your tastes. I’d like to add an edit feature, along with a “notes” section so you can remind yourself next time of anything you learned when cooking it this time
+
+- **Helpful messages and/or redirect:** there’s currently an error message built into the Create Recipe form (not shown), but no success message. I need something here to communicate that the recipe was successfully created.
+
+- **A better loading experience:** You’ll notice I had to refresh when I navigated back to the previous page. I’d rather the list re-populate on navigate.
+
+I have an entire backlog of advanced functionality on the roadmap, including Add to Meal Plan, a more unique and functional layout, an auto-complete (and hidden) slug field, and the ability to add all “out” ingredients to my shopping list.
+
+But right now, I really am focusing on just getting the most bare-bones MVP product put together, and I’m happy with the progress.

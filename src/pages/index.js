@@ -1,22 +1,30 @@
 import React from "react";
+import Page from "../components/Page";
 import ProjectIndex from "../components/ProjectIndex";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
 
-const HomePage = ({ content }) => {
-  console.log(content);
-  return (
-    <div className="container">
-      <header></header>
-      <main>
-        <Hero />
-        <div className="content">
-          <ProjectIndex />
-        </div>
-        <Footer />
-      </main>
-    </div>
-  );
+const HomePage = ({ slug }) => {
+	return (
+		<Page>
+			<div className="max-w-3xl">
+				<div className="mb-8">
+					<h1>I'm Abigail,</h1>
+					<span className="heading-2">
+						a budding React developer <br className="hidden md:block" />{" "}
+						creating mobile-first productivity apps
+					</span>
+					<br />
+					<span className="heading-3 leading-10">
+						and writing about what I learn along the way
+					</span>
+					<a href="/blog" alt="resume" className="button-secondary pt-8">
+						Check out my blog
+						<span class="material-symbols-outlined ml-1">arrow_forward</span>
+					</a>
+				</div>
+				<ProjectIndex slug={slug} />
+			</div>
+		</Page>
+	);
 };
 
 export default HomePage;
