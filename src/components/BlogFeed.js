@@ -12,7 +12,7 @@ const date = (date) => {
 
 const BlogFeed = () => {
 	return (
-		<div>
+		<div className="max-w-xs">
 			<h3 className="heading-3 text-light-blue">Blog</h3>
 			<ul>
 				{posts.map((post) => (

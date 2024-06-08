@@ -1,5 +1,13 @@
 export const posts = [
 	{
+		title: "Your Expectations Can Make or Break Your Career as a Developer",
+		slug: "your-expectations-can-make-or-break-your-career-as-a-developer",
+		pubDate: "2024-06-08",
+		tag: "Career",
+		snippet:
+			"Not living up to expectations will break your spirit. And by not living up to your own expectations, you’re really doing it to yourself.",
+	},
+	{
 		title: "Creating the BiteSize Recipe Box",
 		slug: "creating-the-bitesize-recipe-box",
 		pubDate: "2024-05-27",

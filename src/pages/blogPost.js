@@ -11,9 +11,7 @@ const BlogPost = () => {
 	return (
 		<Page>
 			<MDXProvider>
-				<div className="my-8 max-w-2xl">
-					<MDXContent fallback={<p>Loading...</p>} />
-				</div>
+				<MDXContent fallback={<p>Loading...</p>} />
 			</MDXProvider>
 		</Page>
 	);

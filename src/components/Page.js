@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Nav from "../components/Nav";
 import BlogFeed from "../components/BlogFeed";
+import Nav from "../components/Nav";
 
 const Page = ({ children }) => {
 	return (
@@ -9,8 +9,8 @@ const Page = ({ children }) => {
 			<div className="sticky top-0">
 				<Nav />
 			</div>
-			<div className="flex justify-between flex-grow">
-				<div className="max-w-3xl">{children}</div>
+			<div className="flex my-8">
+				<div className="max-w-3xl mr-20">{children}</div>
 				<div className="hidden lg:block">
 					<BlogFeed />
 				</div>
