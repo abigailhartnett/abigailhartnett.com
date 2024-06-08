@@ -2,14 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { posts } from "../data/posts";
 
-// const date = (dateString) => {
-// 	return new Date(dateString + "00:00:00Z").toLocaleDateString("en-US", {
-// 		year: "numeric",
-// 		month: "long",
-// 		day: "numeric",
-// 	});
-// };
-
 const BlogFeed = () => {
 	return (
 		<div className="max-w-xs">
