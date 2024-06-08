@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { posts } from "../data/posts";
 
-const date = (date) => {
-	return new Date(date).toLocaleDateString("en-US", {
-		year: "numeric",
-		month: "long",
-		day: "numeric",
-	});
-};
+// const date = (dateString) => {
+// 	return new Date(dateString + "00:00:00Z").toLocaleDateString("en-US", {
+// 		year: "numeric",
+// 		month: "long",
+// 		day: "numeric",
+// 	});
+// };
 
 const BlogFeed = () => {
 	return (
@@ -24,7 +24,7 @@ const BlogFeed = () => {
 							<Link to={`/blog/${post.slug}`}>{post.title}</Link>
 						</div>
 						<div className="text-xs flex gap-4">
-							<span>{date(post.pubDate)}</span>
+							<span>{post.pubDate}</span>
 							<span>{post.tag}</span>
 						</div>
 					</li>
