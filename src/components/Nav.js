@@ -17,10 +17,13 @@ const Nav = () => {
 							style={{ maxWidth: "32px" }}
 							alt="Logo"
 						></img>
-						<div className="flex flex-col gap-0">
-							<p className="mb-0">
-								<span className="heading-4">Abigail Hartnett</span> | Journal of
-								a Junior Dev
+						<div className="flex flex-col gap-0 ml-4">
+							<p className="m-0">
+								<span className="heading-4">Abigail Hartnett</span>
+								
+							</p>
+							<p className="m-0">
+								Building user-friendly solutions to everyday problems
 							</p>
 						</div>
 					</div>

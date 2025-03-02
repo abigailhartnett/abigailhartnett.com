@@ -1,12 +1,8 @@
 import React from "react";
-import Page from "../components/Page";
+import { Outlet } from "react-router-dom";
 
 const ProjectsPage = () => {
-	return (
-		<Page>
-			<h1>Projects</h1>
-		</Page>
-	);
+	return <Outlet />;
 };
 
 export default ProjectsPage;

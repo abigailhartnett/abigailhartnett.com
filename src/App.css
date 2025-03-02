@@ -121,6 +121,9 @@ h3 {
 	align-items: center;
 	text-decoration: none;
 	color: #b8bfc7;
+	height: fit-content;
+	width: fit-content;
+	padding: 0.5rem 0;
 }
 
 .button-secondary p {
@@ -230,7 +233,7 @@ h3 {
 	gap: 1rem;
 }
 
-.flex {
+.card-flex {
 	display: flex;
 	gap: 1rem;
 }
