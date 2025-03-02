@@ -20,7 +20,6 @@ const Nav = () => {
 						<div className="flex flex-col gap-0 ml-4">
 							<p className="m-0">
 								<span className="heading-4">Abigail Hartnett</span>
-								
 							</p>
 							<p className="m-0">
 								Building user-friendly solutions to everyday problems
@@ -39,7 +38,7 @@ const Nav = () => {
 							Projects
 						</a> */}
 						<a
-							href="../resources/resume.pdf"
+							href="../resources/resume_abigail-hartnett_2025.pdf"
 							alt="resume"
 							className="button-secondary"
 						>
