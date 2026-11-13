@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "eslint",
     "format:check": "prettier --check app next.config.ts eslint.config.mjs tsconfig.json package.json .prettierrc.json README.md"
   },
