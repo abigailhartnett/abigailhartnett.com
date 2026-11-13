@@ -67,10 +67,13 @@ export default function Home() {
             There’s something deeply satisfying about turning an idea into
             working software. I enjoy shaping and building features from rough
             product requests, thinking through user workflows, and figuring out
-            how all the pieces fit together. Equally important, I value clean,
-            maintainable code that’s easy for the next developer to understand
-            and build upon. After all, code is something we write for each other
-            too.
+            how all the pieces fit together. At Maxio, that meant working with
+            product managers to decide how a feature should work, down to what
+            users would see when something went wrong. I also translated Figma
+            designs into reusable React components for our shared design system.
+            I care about making those components easy for the next developer to
+            understand and build on. After all, code is something we write for
+            each other too.
           </p>
           <p>
             Outside of work, I love spending time with my family, whether we’re
